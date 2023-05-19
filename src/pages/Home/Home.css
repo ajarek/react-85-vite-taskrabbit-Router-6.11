@@ -1,43 +1,9 @@
 .home {
-  height: calc(100vh);
-  padding-top: 12vh;
-  background: linear-gradient(var(--yellowTrans), var(--yellowTrans)),
-    url('img/ciastka1.png') center fixed;
-  background-position: center;
-  background-repeat: repeat;
+  min-height: 100vh;
+  padding-top: 65px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
-.home h1 {
-  font-size: 6rem;
-  text-align: center;
-}
-.home .white {
-  color: var(--mainPink);
-}
-.home .pink {
-  color: var(--mainPink);
-}
-.home .link {
-  height: 85px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  border: 2px solid var(--mainBlack);
-  background-color: var(--mainWhite);
-  transition: all 0.3s ease-in-out;
-}
-.home .link:hover {
-  background-color: var(--mainBlack);
-  border: 2px solid var(--mainPink);
-}
-@media (max-width: 480px) {
-  .home h1 {
-    font-size: 3rem;
-  }
-}
+

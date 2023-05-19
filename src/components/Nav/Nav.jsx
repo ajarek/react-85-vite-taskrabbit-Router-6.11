@@ -1,5 +1,4 @@
-import { useState, useContext } from 'react'
-import { AppContext } from '../../App'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Hamburger from 'hamburger-react'
 import './Nav.css'
@@ -15,7 +14,7 @@ const Nav = () => {
           className='link link-text'
           to={'/'}
         >
-          Główna
+         🛠️ Fachowcy Kołobrzeg 
         </Link>
       
         
