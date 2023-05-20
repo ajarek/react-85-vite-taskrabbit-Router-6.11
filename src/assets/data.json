@@ -1,0 +1,148 @@
+[
+  
+  {
+    "id": "1",
+    "src": "https://assets.taskrabbit.com/v3/assets/web/homepage/components/popular_projects/desktop_405-73a06ac4080d93824936820f5b00e83d48e58a1695c69270961ad2e8819a2eb4.jpg",
+    "category":"Montaż TV",
+    "description": "Mam dostępne materiały i zasoby, które pozwolą bardzo szybko i bezpiecznie zamontować TV",
+    "payment":"100PLN-250PLN",
+    "phone": "654 158 854 ",
+    "name":"Wojtek K.",
+    "email":"wojtek-kowalski@onet.poczta.pl",
+    "facebook": "http://www.facebook.com/wojtek-kowalski"
+    
+  },
+  {
+    "id": "2",
+    "src": "https://media.istockphoto.com/id/1158770056/photo/successful-furniture-assembly-worker-reads-instructions-to-assemble-shelf-professional.jpg?s=612x612&w=0&k=20&c=BPXC5YDAPvIP7novgfnorOPJ3tO4lY-f1CXzu4Ha1JY=",
+    "category":"Montaż Mebli",
+    "description": "Mam doświadczenie , materiały i zasoby, które pozwolą bardzo szybko i bezpiecznie zmontować meble",
+    "payment":"400PLN-750PLN",
+    "phone": "785 654 857 ",
+    "name":"Jan W.",
+    "email":"jan-wanat@wp.pl",
+    "facebook": "http://www.facebook.com/jan-wanat"
+
+  },
+  {
+    "id": "3",
+    "src": "https://uploads-ssl.webflow.com/5fbde3dc76aea24cb3b0ae52/6017bb2859b475c6f95ef05f_home-cleaning-hero.jpg",
+    "category":"Sprzątanie domu",
+    "description": "Oferta obejmuje wycieranie kurzu, dokładne odkurzanie, mycie podłóg i czyszczenie łazienki. Wszystkie zlecone prace wykonujemy w sposób maksymalnie staranny, stosując skuteczne środki chemiczne. Dodatkowo, zaoferować możemy także pranie dywanów, mycie okien czy prasowanie.",
+    "payment":"200PLN-950PLN",
+    "phone": "321 358 757 ",
+    "name":"Janina M.",
+    "email":"janina-michalak@onet.poczta.pl",
+    "facebook": "http://www.facebook.com/janina-michalak"
+
+  },
+  {
+    "id": "4",
+    "src": "https://knowledgemerger.com/wp-content/uploads/2022/03/plumbing-service.jpg",
+    "category":"Hydraulika",
+    "description": "wykonuję błyskawiczne i profesjonalne montaż oraz naprawy hydrauliki w mieszkaniach, lokalach użytkowych, domach .",
+    "payment":"200PLN-1250PLN",
+    "name":"Mateusz Z.",
+    "phone": "558 318 957 ",
+    "email":"mateusz-zielinski@op.pl",
+    "facebook": "http://www.facebook.com/mateusz-zielinski"
+
+  },
+  {
+    "id": "5",
+    "src": "https://trustcampbell.com/wp-content/uploads/2018/05/electrical-wiring.jpg",
+    "category":"Elektryka",
+    "description": "Naprawiam gniazdka,  lampy,  oświetlenie,  bezpieczniki,  wyłączniki,  włączniki ,instalacje elektryczne ,rozetki, usuwam awarie elektryczne, naprawiam instalacje odgromowe",
+    "payment":"400PLN-1250PLN",
+    "name":"Zenon N.",
+    "phone": "732 558 154 ",
+    "email":"zenon-nowacki@onet.poczta.pl",
+    "facebook": "http://www.facebook.com/zenon-nowacki"
+
+  },
+  {
+    "id": "6",
+    "src": "https://whatremovals.co.uk/wp-content/uploads/2021/11/92389721_l-1024x683.jpg",
+    "category":"Przeprowadzki",
+    "description": "Dysponujemy profesjonalnym sprzętem, który pozwala nam wykonywać wszelkie prace w sposób bezpieczny i skuteczny.",
+    "payment":"500PLN-2500PLN",
+    "name":"Bogdan K.",
+    "phone": "654 158 854 ",
+    "email":"bogdan-kolotko@onet.poczta.pl",
+    "facebook": "http://www.facebook.com/bogdan-kolotko"
+
+  },
+  {
+    "id": "7",
+    "src": "https://st2.depositphotos.com/1010613/6390/i/600/depositphotos_63909301-stock-photo-technician-repairing-television.jpg",
+    "category":"Montaż TV",
+    "description": "Profesjonalne wykonanie, w pełni przygotowany wykonawca i bardzo szybki czas wykonania.",
+    "payment":"100PLN-450PLN",
+    "name":"Ryszard P.",
+    "phone": "654 725 985 ",
+    "email":"rysiek-piotrowski@wp.pl",
+    "facebook": "http://www.facebook.com/rysiek-piotrowski"
+
+  },
+  {
+    "id": "8",
+    "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuHLKPyhvWwwvl3trSFvt30BmciYRJYIzmqVOUPikgqHh87vkWwylkvabBXc_NJjEWXl8&usqp=CAU",
+    "category":"Montaż Mebli",
+    "description": "Oferuje profesjonalne skręcanie i montaż mebli od znanych producentów takich jak IKEA, Abra Meble, Black Red White, Jysk, Agata oraz innych.",
+    "payment":"100PLN-350PLN",
+    "name":"Marek J.",
+    "phone": "571-230-154 ",
+    "email":"marek-jaworski@onet.poczta.pl",
+    "facebook": "http://www.facebook.com/marek-jaworski"
+
+  },
+  {
+    "id": "9",
+    "src": "https://www.cleanrific.com.au/wp-content/uploads/2020/11/Commerial-Cleaning-800x500.jpg",
+    "category":"Sprzątanie domu",
+    "description": "Ekipa sprzątająca, która przybędzie na miejsce wykonania sprzątania  będzie po pierwsze doświadczona, po drugie dysponująca profesjonalnym sprzętem czyszczącym, a po trzecie wyposażona w profesjonalne środki czystości.",
+    "payment":"100PLN-850PLN",
+    "phone": "654 321 158 ",
+    "name":"Ola R.",
+    "email":"ola-rokicka@onet.poczta.pl",
+    "facebook": "http://www.facebook.com/ola-rokicka"
+
+  },
+  {
+    "id": "10",
+    "src": "https://negosentro.com/wp-content/uploads/2017/08/Emergency-Plumbing-Services-696x463.jpg",
+    "category":"Hydraulika",
+    "description": "Wykonujemy instalacje wodno-kanalizacyjne, montaż ogrzewania podłogowego, a także instalacje gazowe. Nasze usługi obejmują również prace związane z montażem i naprawą urządzeń sanitarnych, takich jak kabiny prysznicowe, wanny, toalety i wiele innych.",
+    "payment":"500PLN-1850PLN",
+    "phone": "354 568 554 ",
+    "name":"Grzegorz B.",
+    "email":"grzegorz-borowicz@onet.poczta.pl",
+    "facebook": "http://www.facebook.com/grzegorz-borowicz"
+
+  },
+  {
+    "id": "11",
+    "src": "https://hoa.org.uk/wp-content/uploads/2019/05/Removal-Costs.jpg",
+    "category":"Przeprowadzki",
+    "description": "Mamy do dyspozycji wygodne w użyciu i wytrzymałe pojemniki, jak również kartony pakowe.",
+    "payment":"300PLN-1750PLN",
+    "phone": "454 178 354 ",
+    "name":"Krzysztof R.",
+    "email":"krzysztof-zaruski@op.pl",
+    "facebook": "http://www.facebook.com/krzysztof-zaruski"
+
+  },
+  {
+    "id": "12",
+    "src": "https://www.shutterstock.com/image-photo/repairing-household-power-dismantling-faulty-260nw-365199941.jpg",
+    "category":"Elektryka",
+    "description": "Mam dostępne materiały i zasoby, które pozwolą bardzo szybko i bezpiecznie zamontować TV",
+    "payment":"100PLN-750PLN",
+    "phone": "954 821 421 ",
+    "name":"Zbigniew M.",
+    "email":"zbigniew-malinski@wp.pl",
+    "facebook": "http://www.facebook.com/zbigniew-malinski"
+
+  }
+  
+]

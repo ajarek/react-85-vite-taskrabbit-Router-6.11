@@ -6,13 +6,14 @@
 }
 
 :root {
-  --white: #fff;
-  --grey: #eeeeee;
-  --darkGrey: #808080;
   --black: #000000;
+  --blue:#2f44cc;
+  --darkGrey: #808080;
   --green:#0D7A5F ;
-  --red: #ff0000;
-  --yellow:#ffff00;
+  --grey: #eeeeee;
+  --red: #f30600;
+  --yellow:#fef200;
+  --white: #fff;
 }
 body {
   font-family: 'Poppins', sans-serif;

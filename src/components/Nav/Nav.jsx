@@ -8,21 +8,30 @@ const Nav = () => {
   
   return (
     <nav className='nav'>
-     
-      <ul className={!isOpen ? 'wrapper' : 'wrapper navbar-none'}>
-        <Link
+     <div className='nav-wrapper'>
+     <Link
           className='link link-text'
           to={'/'}
         >
          🛠️ Fachowcy Kołobrzeg 
         </Link>
+      </div>
+      <ul className={!isOpen ? 'wrapper' : 'wrapper navbar-none'}>
+        
       
+        
+        <Link
+          className='link link-text'
+          to={'/fachowcy'}
+        >
+          Lista fachowców
+        </Link>
         
         <Link
           className='link link-text'
           to={'/contact'}
         >
-          Kontakt
+          Dodaj swoje usługi
         </Link>
         
       </ul>

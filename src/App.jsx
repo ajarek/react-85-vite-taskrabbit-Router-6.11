@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Main from './layouts/Main/Main'
 import Home from './pages/Home/Home'
 import Contact from './pages/Contact/Contact'
+import Professionals from './pages/Professionals/Professionals'
 import Error from './pages/Error/Error'
 
 const router = createBrowserRouter([
@@ -13,6 +14,11 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Home />,
+        errorElement: <Error />,
+      },
+      {
+        path: 'fachowcy',
+        element: <Professionals />,
         errorElement: <Error />,
       },
       {

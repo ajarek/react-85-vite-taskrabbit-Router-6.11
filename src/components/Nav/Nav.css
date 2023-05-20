@@ -15,44 +15,24 @@
 }
 .link {
   text-decoration: none;
-  font-size: 2rem;
-  color: var(--mainPink);
+  font-size: 1.5rem;
+  color: var(--black);
   padding: 0 16px;
   border-radius: 8px;
   transition: all 0.3s ease-in-out;
 }
 .link-text:hover,
 .link-text:focus {
-  background-color: var(--mainBlack);
+  background-color: var(--yellow);
 }
-.nav .link img {
-  height: 12vh;
-  object-fit: cover;
-}
+
 .nav .wrapper {
   height: 100%;
-  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.cart-span {
-  position: relative;
-}
-.nav span {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: -10px;
-  left: -10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background-color: var(--mainBlack);
-  font-family: sans-serif;
-  font-size: 1.1rem;
-}
+
 .hamburger {
   position: absolute;
   right: 32px;
@@ -76,7 +56,7 @@
     top: -100vh;
     transition: transform 0.5s ease-in-out;
     z-index: 1;
-    background: var(--mainGrey);
+    background: var(--grey);
     height: 20rem;
   }
 
