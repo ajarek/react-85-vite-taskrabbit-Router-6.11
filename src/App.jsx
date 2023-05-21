@@ -1,4 +1,6 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createContext, useState } from 'react'
+export const AppContext = createContext()
 import Main from './layouts/Main/Main'
 import Home from './pages/Home/Home'
 import Contact from './pages/Contact/Contact'
@@ -43,9 +45,12 @@ const router = createBrowserRouter([
   },
 ])
 function App() {
+  const [filter,setFilter]=useState('')
   return (
     <div className='App'>
+      <AppContext.Provider value={{filter,setFilter}}>
       <RouterProvider router={router} />
+      </AppContext.Provider>
     </div>
   )
 }
