@@ -1,0 +1,45 @@
+.professionals-edit{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 64px;
+  padding-top: calc(65px + 64px);
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-bottom: 64px;
+  background-color: var(--yellow);
+  position: relative;
+}
+.professional-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.professional-wrapper:nth-child(3){
+  align-items: flex-start;
+  font-size: 1.2rem;
+}
+.professional-wrapper .img img{
+ width:400px ;
+ object-fit: cover;
+}
+.professional-wrapper .email,
+.professional-wrapper .facebook,
+.professional-wrapper .phone{
+  display: flex;
+  align-items: center;
+}
+.professional-wrapper a{
+  text-decoration: none;
+  margin-left: 16px;
+  color: var(--red);
+}
+ .btn-back{
+  position: absolute;
+  bottom:64px ;
+  right: 64px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}

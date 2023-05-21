@@ -4,6 +4,7 @@ import Home from './pages/Home/Home'
 import Contact from './pages/Contact/Contact'
 import Professionals from './pages/Professionals/Professionals'
 import Error from './pages/Error/Error'
+import ProfessionalsEdit from './pages/ProfessionalsEdit/ProfessionalsEdit'
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,18 @@ const router = createBrowserRouter([
         path: 'contact',
         element: <Contact />,
         errorElement: <Error />,
+      },
+       {
+        path: 'fachowcy-edycja',
+        errorElement: <Error />,
+        children: [
+          {
+            path: ':id',
+            // action: noteAction,
+            element: <ProfessionalsEdit />,
+            errorElement: <Error />,
+          },
+        ],
       },
     ],
   },
