@@ -5,35 +5,31 @@ import './Nav.css'
 
 const Nav = () => {
   const [isOpen, setOpen] = useState(false)
-  
+
   return (
     <nav className='nav'>
-     <div className='nav-wrapper'>
-     <Link
+      <div className='nav-wrapper'>
+        <Link
           className='link link-text'
           to={'/'}
         >
-         🛠️ Fachowcy Kołobrzeg 
+          🛠️ Fachowcy Kołobrzeg
         </Link>
       </div>
       <ul className={!isOpen ? 'wrapper' : 'wrapper navbar-none'}>
-        
-      
-        
         <Link
           className='link link-text'
           to={'/fachowcy'}
         >
           Lista fachowców
         </Link>
-        
+
         <Link
           className='link link-text'
           to={'/contact'}
         >
           Dodaj swoje usługi
         </Link>
-        
       </ul>
       <div className='hamburger'>
         <Hamburger

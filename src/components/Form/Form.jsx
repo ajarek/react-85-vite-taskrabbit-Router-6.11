@@ -3,7 +3,8 @@ import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 import './Form.css'
 
-export const Form = () => {
+// eslint-disable-next-line react/prop-types
+export const Form = ({onSubmit}) => {
   const schema = yup.object().shape({
     name: yup.string().required(),
     email: yup.string().email().required(),
@@ -22,9 +23,7 @@ export const Form = () => {
     resolver: yupResolver(schema),
   })
 
-  const onSubmit = (data) => {
-    alert('Thank you ' + data.name)
-  }
+ 
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>

@@ -1,5 +1,5 @@
 .professionals-edit{
-  height: 100vh;
+  min-height: 100vh;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 64px;
@@ -42,4 +42,26 @@
   padding: 8px 16px;
   border-radius: 5px;
   cursor: pointer;
+}
+@media (max-width:510px) {
+  .professionals-edit{
+    padding-left: 5px;
+    padding-right: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+  .professional-wrapper .img img{
+    width: 280px;
+  }
+  
+  .professional-wrapper a {
+    font-size: 0.8rem;
+  }
+  .btn-back{
+    bottom: 8px;
+  }
+  .professional-wrapper .email,
+.professional-wrapper .facebook,
+.professional-wrapper .phone{
+  font-size: 1rem;
+}
 }

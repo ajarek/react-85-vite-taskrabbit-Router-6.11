@@ -32,6 +32,7 @@
   border: none;
   border-radius: 5px;
   transition: 0.3s ease-in-out;
+  margin-bottom: 8px;
 }
 .baner .link:hover{
   transform: scale(1.1);
@@ -55,4 +56,16 @@
   background-color: var(--red);
   color: var(--yellow);
   transform: scale(1);
+}
+@media (max-width: 597px) {
+  .baner .modal{
+    width: auto;
+    height: auto;
+    padding: 5px;
+    top: 38%;
+    right: 0;
+  }
+  .baner .link:hover{
+    transform: scale(1.0);
+  }
 }
