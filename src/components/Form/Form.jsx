@@ -5,9 +5,13 @@ import './Form.css'
 
 export const Form = () => {
   const schema = yup.object().shape({
-    name: yup.string().required('Your Name is Required!'),
+    name: yup.string().required(),
     email: yup.string().email().required(),
-    text: yup.string().required(),
+    category: yup.string().required(),
+    desc: yup.string().required(),
+    payment: yup.string().required(),
+    phone: yup.string().required(),
+    facebook: yup.string().required(),
   })
 
   const {
@@ -36,12 +40,45 @@ export const Form = () => {
         {...register('email')}
       />
       <p>{errors.email?.message}</p>
+      <select
+        {...register('category')}
+        className='select'
+      >
+        <option value=''>Kategoria</option>
+        <option value='Hydraulika'>Hydraulika</option>
+        <option value='Montaż TV'>Montaż TV</option>
+        <option value='Montaż Mebli'>Montaż Mebli</option>
+        <option value='Przeprowadzki'>Przeprowadzki</option>
+        <option value='Elektryka'>Elektryka</option>
+        <option value='Sprzątanie domu'>Sprzątanie domu</option>
+      </select>
+      <p>{errors.category?.message}</p>
+      
       <input
         type='text'
-        placeholder='Wiadomość...'
-        {...register('text')}
+        placeholder='Opis...'
+        {...register('desc')}
       />
-      <p>{errors.text?.message}</p>
+      <p>{errors.text?.desc}</p>
+      <input
+        type='text'
+        placeholder='Zakres opłaty np. 100PLN-250PLN'
+        {...register('payment')}
+      />
+      <p>{errors.payment?.message}</p>
+      <input
+        type='text'
+        placeholder='Nr telefonu...'
+        {...register('phone')}
+      />
+      <p>{errors.phone?.message}</p>
+      <input
+        type='text'
+        placeholder='Adres Facebook'
+        {...register('facebook')}
+      />
+      <p>{errors.facebook?.message}</p>
+
 
       <input
         type='submit'
