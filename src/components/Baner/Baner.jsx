@@ -5,7 +5,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import './Baner.css'
 
 const Baner = () => {
-  const { filter, setFilter } = useContext(AppContext)
+  const { setFilter } = useContext(AppContext)
   const navigate = useNavigate()
 
   return (
@@ -15,7 +15,7 @@ const Baner = () => {
         <Link
           to={'/fachowcy'}
           className='link'
-          onClick={()=>setFilter('')}
+          onClick={() => setFilter('')}
         >
           <FaHandsHelping /> Uzyskaj pomoc już dziś
         </Link>

@@ -1,10 +1,9 @@
-import { Link } from 'react-router-dom'
 import Baner from '../../components/Baner/Baner'
 import './Home.css'
 const Home = () => {
   return (
     <div className='home'>
-     <Baner/>
+      <Baner />
     </div>
   )
 }

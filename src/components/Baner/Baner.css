@@ -1,29 +1,29 @@
-.baner{
+.baner {
   width: 100%;
   height: calc(100vh - 65px);
-  background:url('img/baner.jpg') center fixed;
-  background-position:right bottom;
+  background: url('img/baner.jpg') center fixed;
+  background-position: right bottom;
   background-size: cover;
   background-repeat: repeat;
   position: relative;
 }
-.baner .modal{
+.baner .modal {
   position: absolute;
   right: 32px;
   top: 28%;
   transform: translateY(-50%);
   width: 550px;
   height: 250px;
-  background-color:var(--yellow);
+  background-color: var(--yellow);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   border-radius: 5px;
-  box-shadow: 2px 2px 5px rgba( 0,0,0,0.5);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.baner .link{
+.baner .link {
   font-size: 1.4rem;
   padding: 8px 16px;
   background-color: var(--red);
@@ -34,38 +34,38 @@
   transition: 0.3s ease-in-out;
   margin-bottom: 8px;
 }
-.baner .link:hover{
+.baner .link:hover {
   transform: scale(1.1);
 }
-.baner .category{
+.baner .category {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 16px;
 }
-.baner .category button{
+.baner .category button {
   background-color: transparent;
   color: var(--red);
   font-size: 1.3rem;
   padding: 4px 8px;
-  border:1px solid var(--red) ;
+  border: 1px solid var(--red);
   border-radius: 5px;
   transition: 0.3s ease-in-out;
 }
-.baner .category button:hover{
+.baner .category button:hover {
   background-color: var(--red);
   color: var(--yellow);
   transform: scale(1);
 }
 @media (max-width: 597px) {
-  .baner .modal{
+  .baner .modal {
     width: auto;
     height: auto;
     padding: 5px;
     top: 38%;
     right: 0;
   }
-  .baner .link:hover{
-    transform: scale(1.0);
+  .baner .link:hover {
+    transform: scale(1);
   }
 }

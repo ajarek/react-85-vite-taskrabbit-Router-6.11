@@ -7,12 +7,12 @@
 
 :root {
   --black: #000000;
-  --blue:#2f44cc;
+  --blue: #2f44cc;
   --darkGrey: #808080;
-  --green:#0D7A5F ;
+  --green: #0d7a5f;
   --grey: #eeeeee;
   --red: #f30600;
-  --yellow:#fef200;
+  --yellow: #fef200;
   --white: #fff;
 }
 body {

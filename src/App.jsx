@@ -29,7 +29,7 @@ const router = createBrowserRouter([
         element: <Contact />,
         errorElement: <Error />,
       },
-       {
+      {
         path: 'fachowcy-edycja',
         errorElement: <Error />,
         children: [
@@ -45,11 +45,11 @@ const router = createBrowserRouter([
   },
 ])
 function App() {
-  const [filter,setFilter]=useState('')
+  const [filter, setFilter] = useState('')
   return (
     <div className='App'>
-      <AppContext.Provider value={{filter,setFilter}}>
-      <RouterProvider router={router} />
+      <AppContext.Provider value={{ filter, setFilter }}>
+        <RouterProvider router={router} />
       </AppContext.Provider>
     </div>
   )

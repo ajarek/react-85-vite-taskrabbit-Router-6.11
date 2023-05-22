@@ -1,4 +1,4 @@
-.professionals-edit{
+.professionals-edit {
   min-height: 100vh;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -10,58 +10,58 @@
   background-color: var(--yellow);
   position: relative;
 }
-.professional-wrapper{
+.professional-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.professional-wrapper:nth-child(3){
+.professional-wrapper:nth-child(3) {
   align-items: flex-start;
   font-size: 1.2rem;
 }
-.professional-wrapper .img img{
- width:400px ;
- object-fit: cover;
+.professional-wrapper .img img {
+  width: 400px;
+  object-fit: cover;
 }
 .professional-wrapper .email,
 .professional-wrapper .facebook,
-.professional-wrapper .phone{
+.professional-wrapper .phone {
   display: flex;
   align-items: center;
 }
-.professional-wrapper a{
+.professional-wrapper a {
   text-decoration: none;
   margin-left: 16px;
   color: var(--red);
 }
- .btn-back{
+.btn-back {
   position: absolute;
-  bottom:64px ;
+  bottom: 64px;
   right: 64px;
   padding: 8px 16px;
   border-radius: 5px;
   cursor: pointer;
 }
-@media (max-width:510px) {
-  .professionals-edit{
+@media (max-width: 510px) {
+  .professionals-edit {
     padding-left: 5px;
     padding-right: 5px;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
-  .professional-wrapper .img img{
+  .professional-wrapper .img img {
     width: 280px;
   }
-  
+
   .professional-wrapper a {
     font-size: 0.8rem;
   }
-  .btn-back{
+  .btn-back {
     bottom: 8px;
   }
   .professional-wrapper .email,
-.professional-wrapper .facebook,
-.professional-wrapper .phone{
-  font-size: 1rem;
-}
+  .professional-wrapper .facebook,
+  .professional-wrapper .phone {
+    font-size: 1rem;
+  }
 }

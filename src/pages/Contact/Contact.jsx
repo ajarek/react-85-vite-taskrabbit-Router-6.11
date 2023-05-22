@@ -1,8 +1,8 @@
-import {useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { Form } from '../../components/Form/Form'
 import './Contact.css'
 
-export const Contact = () => { 
+export const Contact = () => {
   const navigate = useNavigate()
   const onSubmit = (data) => {
     alert('Thank you ' + data.name)
@@ -10,7 +10,7 @@ export const Contact = () => {
   }
   return (
     <div className='contact'>
-      <Form onSubmit={onSubmit}/>
+      <Form onSubmit={onSubmit} />
     </div>
   )
 }

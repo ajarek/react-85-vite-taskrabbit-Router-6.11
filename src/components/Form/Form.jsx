@@ -4,7 +4,7 @@ import * as yup from 'yup'
 import './Form.css'
 
 // eslint-disable-next-line react/prop-types
-export const Form = ({onSubmit}) => {
+export const Form = ({ onSubmit }) => {
   const schema = yup.object().shape({
     name: yup.string().required(),
     email: yup.string().email().required(),
@@ -22,8 +22,6 @@ export const Form = ({onSubmit}) => {
   } = useForm({
     resolver: yupResolver(schema),
   })
-
- 
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
@@ -52,7 +50,7 @@ export const Form = ({onSubmit}) => {
         <option value='Sprzątanie domu'>Sprzątanie domu</option>
       </select>
       <p>{errors.category?.message}</p>
-      
+
       <input
         type='text'
         placeholder='Opis...'
@@ -77,7 +75,6 @@ export const Form = ({onSubmit}) => {
         {...register('facebook')}
       />
       <p>{errors.facebook?.message}</p>
-
 
       <input
         type='submit'
